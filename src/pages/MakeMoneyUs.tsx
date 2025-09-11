@@ -60,12 +60,12 @@ function bemobCb(params) {
     const bemobTrackingScript = document.createElement('script');
     bemobTrackingScript.type = 'text/javascript';
     bemobTrackingScript.textContent = `
-!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://9ud2s.bemobtrcks.com/landing/023a181e-fd41-4ee7-b91d-9d989bfd0ed2?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();`;
+!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://9ud2s.bemobtrcks.com/landing/7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();`;
 
     // Add noscript fallback
     const noscript = document.createElement('noscript');
     const noscriptImg = document.createElement('img');
-    noscriptImg.src = 'https://9ud2s.bemobtrcks.com/landing/023a181e-fd41-4ee7-b91d-9d989bfd0ed2?rule=1&path=1&landing=1';
+    noscriptImg.src = 'https://9ud2s.bemobtrcks.com/landing/7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c?rule=1&path=1&landing=1';
     noscriptImg.alt = '';
     noscript.appendChild(noscriptImg);
     document.body.appendChild(noscript);
@@ -119,9 +119,9 @@ function bemobCb(params) {
     
     // Lien Bemob pour la page /make-money-us avec suivi Google Ads
     if (typeof (window as any).gtag_report_conversion === 'function') {
-      (window as any).gtag_report_conversion("https://9ud2s.bemobtrcks.com/click/1?ns=c%3D023a181e-fd41-4ee7-b91d-9d989bfd0ed2..l%3D2..a%3D0..b%3D0");
+      (window as any).gtag_report_conversion("https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0");
     } else {
-      window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D023a181e-fd41-4ee7-b91d-9d989bfd0ed2..l%3D2..a%3D0..b%3D0";
+      window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0";
     }
   };
 
