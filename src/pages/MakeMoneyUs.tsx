@@ -33,6 +33,22 @@ const MakeMoneyUs = () => {
     // Set page title
     document.title = "Up to $10 per Survey!";
     
+    // Add Google Tag Manager script
+    const gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11229118614';
+    document.head.appendChild(gtagScript);
+
+    // Add Google Tag Manager configuration
+    const gtagConfigScript = document.createElement('script');
+    gtagConfigScript.textContent = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11229118614');
+    `;
+    document.head.appendChild(gtagConfigScript);
+    
     // Add delegate-ch meta tag
     const meta = document.createElement('meta');
     meta.httpEquiv = 'delegate-ch';
@@ -93,6 +109,12 @@ function bemobCb(params) {
 
     // Cleanup: remove all added elements when component unmounts
     return () => {
+      if (gtagScript.parentNode) {
+        gtagScript.parentNode.removeChild(gtagScript);
+      }
+      if (gtagConfigScript.parentNode) {
+        gtagConfigScript.parentNode.removeChild(gtagConfigScript);
+      }
       if (meta.parentNode) {
         meta.parentNode.removeChild(meta);
       }
