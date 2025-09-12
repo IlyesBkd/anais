@@ -97,7 +97,7 @@ function bemobCb(params) {
           }
         };
         gtag('event', 'conversion', {
-            'send_to': 'AW-17513417585/7WoqCJDppY8bEPGWhp9B',
+            'send_to': 'AW-11229118614/cAnTCIvn3NUZEJaBu-op',
             'value': 1.0,
             'currency': 'EUR',
             'event_callback': callback
