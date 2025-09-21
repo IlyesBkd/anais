@@ -28,109 +28,9 @@ const MakeMoneyUs = () => {
   const [progress] = useState(80);
   const { toast } = useToast();
 
-  // Add delegate-ch meta tag and bemob scripts only for this page
   useEffect(() => {
     // Set page title
     document.title = "Up to $10 per Survey!";
-    
-    // Add Google Tag Manager script
-    const gtagScript = document.createElement('script');
-    gtagScript.async = true;
-    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11229118614';
-    document.head.appendChild(gtagScript);
-
-    // Add Google Tag Manager configuration
-    const gtagConfigScript = document.createElement('script');
-    gtagConfigScript.textContent = `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-11229118614');
-    `;
-    document.head.appendChild(gtagConfigScript);
-    
-    // Add delegate-ch meta tag
-    const meta = document.createElement('meta');
-    meta.httpEquiv = 'delegate-ch';
-    meta.content = 'sec-ch-ua https://9ud2s.bemobtrcks.com; sec-ch-ua-mobile https://9ud2s.bemobtrcks.com; sec-ch-ua-arch https://9ud2s.bemobtrcks.com; sec-ch-ua-model https://9ud2s.bemobtrcks.com; sec-ch-ua-platform https://9ud2s.bemobtrcks.com; sec-ch-ua-platform-version https://9ud2s.bemobtrcks.com; sec-ch-ua-bitness https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version-list https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version https://9ud2s.bemobtrcks.com';
-    document.head.appendChild(meta);
-
-    // Add bemobCb function
-    const bemobCbScript = document.createElement('script');
-    bemobCbScript.type = 'text/javascript';
-    bemobCbScript.textContent = `
-function bemobCb(params) {
-    var t = params.trackingDomain+'/click/';
-    var re = new RegExp(t+'?(\\d*)');
-    var e = document.querySelectorAll('a[href*="'+t+'"]');
-    for (var i = 0; i < e.length; i++) {
-        var ex = re.exec(e[i].href);
-        if (ex) {
-            e[i].href = params.ctaSecureUrl.replace('%%OFFER_NUMBER%%', ex[1] || 1);
-        }
-    }
-}`;
-    document.head.appendChild(bemobCbScript);
-
-    // Add bemob tracking script
-    const bemobTrackingScript = document.createElement('script');
-    bemobTrackingScript.type = 'text/javascript';
-    bemobTrackingScript.textContent = `
-!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://9ud2s.bemobtrcks.com/landing/7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();`;
-
-    // Add noscript fallback
-    const noscript = document.createElement('noscript');
-    const noscriptImg = document.createElement('img');
-    noscriptImg.src = 'https://9ud2s.bemobtrcks.com/landing/7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c?rule=1&path=1&landing=1';
-    noscriptImg.alt = '';
-    noscript.appendChild(noscriptImg);
-    document.body.appendChild(noscript);
-
-    // Add Google Ads conversion tracking event snippet for Page view conversion
-    const gtagEventScript = document.createElement('script');
-    gtagEventScript.type = 'text/javascript';
-    gtagEventScript.textContent = `
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-11229118614/cAnTCIvn3NUZEJaBu-op',
-            'value': 1.0,
-            'currency': 'EUR',
-            'event_callback': callback
-        });
-        return false;
-      }
-    `;
-    document.head.appendChild(gtagEventScript);
-
-    // Cleanup: remove all added elements when component unmounts
-    return () => {
-      if (gtagScript.parentNode) {
-        gtagScript.parentNode.removeChild(gtagScript);
-      }
-      if (gtagConfigScript.parentNode) {
-        gtagConfigScript.parentNode.removeChild(gtagConfigScript);
-      }
-      if (meta.parentNode) {
-        meta.parentNode.removeChild(meta);
-      }
-      if (bemobCbScript.parentNode) {
-        bemobCbScript.parentNode.removeChild(bemobCbScript);
-      }
-      if (bemobTrackingScript.parentNode) {
-        bemobTrackingScript.parentNode.removeChild(bemobTrackingScript);
-      }
-      if (noscript.parentNode) {
-        noscript.parentNode.removeChild(noscript);
-      }
-      if (gtagEventScript.parentNode) {
-        gtagEventScript.parentNode.removeChild(gtagEventScript);
-      }
-    };
   }, []);
 
   const handleAnyClick = () => {
@@ -139,12 +39,8 @@ function bemobCb(params) {
       description: "You will be redirected to the exclusive offer",
     });
     
-    // Lien Bemob pour la page /make-money-us avec suivi Google Ads
-    if (typeof (window as any).gtag_report_conversion === 'function') {
-      (window as any).gtag_report_conversion("https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0");
-    } else {
-      window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0";
-    }
+    // Redirection simple sans tracking
+    window.location.href = "https://example.com/offer";
   };
 
   const featuredOffers = [

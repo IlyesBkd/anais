@@ -10,37 +10,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon.png" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17528797106"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'AW-17528797106');
-    </script>
-
-    <!-- Event snippet for Page view conversion page
-    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-17528797106/OxOqCJWWlJYbELLvsKZB',
-          'value': 1.0,
-          'currency': 'EUR',
-          'event_callback': callback
-      });
-      return false;
-    }
-    </script>
-
-    <!-- Bemob Redirection Script -->
-    <meta http-equiv="delegate-ch" content="sec-ch-ua https://9ud2s.bemobtrcks.com; sec-ch-ua-mobile https://9ud2s.bemobtrcks.com; sec-ch-ua-arch https://9ud2s.bemobtrcks.com; sec-ch-ua-model https://9ud2s.bemobtrcks.com; sec-ch-ua-platform https://9ud2s.bemobtrcks.com; sec-ch-ua-platform-version https://9ud2s.bemobtrcks.com; sec-ch-ua-bitness https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version-list https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version https://9ud2s.bemobtrcks.com">
 
     <meta property="og:title" content="Join our Exclusive Research Panel & Test Products First!" />
     <meta property="og:description" content="Join our exclusive product testing panel and help shape future products before they hit the shelf." />
@@ -56,21 +26,5 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     
-    <!-- Bemob Tracking Scripts -->
-    <script type="text/javascript">
-      function bemobCb(params) {
-          var t = params.trackingDomain+'/click/';
-          var re = new RegExp(t+'?(\\d*)');
-          var e = document.querySelectorAll('a[href*="'+t+'"]');
-          for (var i = 0; i < e.length; i++) {
-              var ex = re.exec(e[i].href);
-              if (ex) {
-                  e[i].href = params.ctaSecureUrl.replace('%%OFFER_NUMBER%%', ex[1] || 1);
-              }
-          }
-      }
-    </script>
-    <script type="text/javascript">!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://9ud2s.bemobtrcks.com/landing/9a1c9d01-1091-43b3-aa26-b47659b5db3f?callback=bemobCb&rule=1&path=1&landing=2&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();</script>
-    <noscript><img src="https://9ud2s.bemobtrcks.com/landing/9a1c9d01-1091-43b3-aa26-b47659b5db3f?rule=1&path=1&landing=2" alt=""></noscript>
   </body>
 </html>
