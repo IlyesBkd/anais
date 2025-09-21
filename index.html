@@ -20,6 +20,25 @@
       gtag('config', 'AW-17587132853');
     </script>
 
+    <!-- Event snippet for Clic sortant conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17587132853/Ubn4CMmI4J4bELWzmcJB',
+          'value': 1.0,
+          'currency': 'EUR',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
     <!-- Bemob Redirection Script -->
     <meta http-equiv="delegate-ch" content="sec-ch-ua https://9ud2s.bemobtrcks.com; sec-ch-ua-mobile https://9ud2s.bemobtrcks.com; sec-ch-ua-arch https://9ud2s.bemobtrcks.com; sec-ch-ua-model https://9ud2s.bemobtrcks.com; sec-ch-ua-platform https://9ud2s.bemobtrcks.com; sec-ch-ua-platform-version https://9ud2s.bemobtrcks.com; sec-ch-ua-bitness https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version-list https://9ud2s.bemobtrcks.com; sec-ch-ua-full-version https://9ud2s.bemobtrcks.com">
 

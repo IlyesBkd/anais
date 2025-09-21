@@ -93,8 +93,12 @@ function bemobCb(params) {
       description: "You will be redirected to the exclusive offer",
     });
     
-    // Lien Bemob pour la page /make-money-us
-    window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0";
+    // Lien Bemob pour la page /make-money-us avec suivi Google Ads
+    if (typeof (window as any).gtag_report_conversion === 'function') {
+      (window as any).gtag_report_conversion("https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0");
+    } else {
+      window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0";
+    }
   };
 
   const featuredOffers = [
