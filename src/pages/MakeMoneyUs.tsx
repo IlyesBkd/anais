@@ -31,7 +31,7 @@ const MakeMoneyUs = () => {
   // Add delegate-ch meta tag and bemob scripts only for this page
   useEffect(() => {
     // Set page title
-    document.title = "Up to $10 per Survey!";
+    document.title = "Up to £10 per Survey!";
     
     // Add delegate-ch meta tag
     const meta = document.createElement('meta');
@@ -106,7 +106,7 @@ function bemobCb(params) {
       id: 1,
       title: "Age of Coins: Master",
       reward: "4.2",
-      currency: "$",
+      currency: "£",
       type: "Game",
       gradient: "from-orange-400 to-red-500"
     },
@@ -114,7 +114,7 @@ function bemobCb(params) {
       id: 2,
       title: "[NEW] Solitaire Joy: Mobile",
             reward: "6.0",
-      currency: "$",
+      currency: "£",
       type: "Game",
       gradient: "from-green-400 to-blue-500"
     },
@@ -122,7 +122,7 @@ function bemobCb(params) {
       id: 3,
       title: "Lords Mobile: Kingdom",
       reward: "3.2",
-      currency: "$",
+      currency: "£",
       type: "Game", 
       gradient: "from-purple-400 to-pink-500"
     },
@@ -130,7 +130,7 @@ function bemobCb(params) {
       id: 4,
       title: "Clash Of Clans",
       reward: "4.2",
-      currency: "$",
+      currency: "£",
       type: "Game",
       gradient: "from-blue-400 to-indigo-500"
     }
@@ -190,7 +190,7 @@ function bemobCb(params) {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <p className="text-gray-300 text-sm">Current Balance</p>
-                  <p className="text-4xl font-bold">${currentBalance}</p>
+                  <p className="text-4xl font-bold">£{currentBalance}</p>
                 </div>
                 <Button 
                   className="bg-gradient-to-r from-green-400 to-green-500 text-gray-900 hover:from-green-300 hover:to-green-400 font-bold px-6 py-2 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-green-300 hover:border-green-200"
@@ -205,7 +205,7 @@ function bemobCb(params) {
               
               <div className="mb-4">
                 <div className="flex justify-between items-center mb-2">
-                                     <span className="text-gray-300 text-sm">Sign up now and get $10.6</span>
+                                     <span className="text-gray-300 text-sm">Sign up now and get £10.6</span>
                   <span className="text-white font-semibold">{progress}%</span>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-3">
@@ -301,7 +301,7 @@ function bemobCb(params) {
                   </div>
                   
                   <div className="text-center">
-                    <p className="text-lg font-bold text-green-600">${survey.reward}</p>
+                    <p className="text-lg font-bold text-green-600">£{survey.reward}</p>
                   </div>
                 </Card>
               ))}
@@ -317,7 +317,7 @@ function bemobCb(params) {
         <div className="flex space-x-6 h-full">
           {/* Left Column - Dashboard & Stats */}
           <div className="flex-1 space-y-3 pr-2">
-            <h2 className="text-3xl font-bold text-white">Earn up to $13.8 by Poll!</h2>
+            <h2 className="text-3xl font-bold text-white">Earn up to £13.8 by Poll!</h2>
             
             {/* User Stats Cards */}
             <div className="grid grid-cols-1 gap-3">
@@ -325,7 +325,7 @@ function bemobCb(params) {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-green-100 text-sm">Balance</p>
-                    <p className="text-xl font-bold">${currentBalance}</p>
+                    <p className="text-xl font-bold">£{currentBalance}</p>
                   </div>
                   <DollarSign className="w-6 h-6 text-green-200" />
                 </div>
@@ -338,7 +338,7 @@ function bemobCb(params) {
                 <div className="flex justify-between items-center">
                   <div>
                     <h3 className="text-lg font-bold text-gray-800">Current Balance</h3>
-                    <p className="text-2xl font-bold text-green-600">${currentBalance}</p>
+                    <p className="text-2xl font-bold text-green-600">£{currentBalance}</p>
                   </div>
                   <Button className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400 hover:to-emerald-500 text-white font-bold px-6 py-3 text-base rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-green-400 hover:border-green-300" onClick={handleAnyClick}>
                     <DollarSign className="w-4 h-4 mr-2" />
@@ -348,14 +348,14 @@ function bemobCb(params) {
                 
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                                         <span className="text-gray-600 text-sm">Sign up now and get $10.6</span>
+                                         <span className="text-gray-600 text-sm">Sign up now and get £10.6</span>
                     <span className="text-green-600 font-semibold">3/5</span>
                   </div>
                   <Progress value={60} className="h-2" />
                   <div className="text-center">
-                                         <p className="text-gray-600 mb-1 text-sm">Earn $10.6 by completing the goal</p>
+                                         <p className="text-gray-600 mb-1 text-sm">Earn £10.6 by completing the goal</p>
                     <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-3 rounded-lg">
-                                              <p className="text-2xl font-bold text-gray-800">$47.6</p>
+                                              <p className="text-2xl font-bold text-gray-800">£47.6</p>
                       <p className="text-xs text-gray-600">Daily potential</p>
                     </div>
                   </div>
@@ -376,7 +376,7 @@ function bemobCb(params) {
                   </span>{" "}
                   and earn{" "}
                   <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-2 py-1 rounded-lg shadow-md text-sm">
-                                         $47.6/day
+                                         £47.6/day
                   </span>
                 </p>
                 
@@ -442,7 +442,7 @@ function bemobCb(params) {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="font-bold text-green-600 text-base">${survey.reward}</p>
+                      <p className="font-bold text-green-600 text-base">£{survey.reward}</p>
                       <Button size="sm" className="bg-green-500 hover:bg-green-600 text-white mt-1 group-hover:scale-105 transition-transform duration-300 text-xs h-7" onClick={handleAnyClick}>
                         Start
                       </Button>

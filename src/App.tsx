@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MakeMoneyUs from "./pages/MakeMoneyUs";
+import HeyCash from "./pages/HeyCash";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -16,6 +17,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MakeMoneyUs />} />
+          <Route path="/hey-cash" element={<HeyCash />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
