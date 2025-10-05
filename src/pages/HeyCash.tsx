@@ -69,7 +69,7 @@ const HeyCash = () => {
           </h1>
           
           <p className="text-lg md:text-xl mb-8 text-gray-200 font-medium max-w-3xl mx-auto">
-            Join 2M+ users earning up to £120 per game
+            Join 2M+ users earning up to $120 per game
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-8">
@@ -87,7 +87,7 @@ const HeyCash = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-8">
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-black text-green-400 mb-1">£2.5M+</div>
+              <div className="text-2xl md:text-3xl font-black text-green-400 mb-1">$2.5M+</div>
               <div className="text-gray-300 text-xs">Paid Out</div>
             </div>
             <div className="text-center">
@@ -119,7 +119,7 @@ const HeyCash = () => {
               </div>
               <h3 className="text-2xl font-black text-green-400 mb-3 tracking-wide">PLAY GAMES</h3>
               <p className="text-gray-300 mb-3 text-base">Earn per game</p>
-              <div className="text-3xl font-black text-white mb-4">£0.30 - £120</div>
+              <div className="text-3xl font-black text-white mb-4">$0.30 - $120</div>
             </div>
 
             {/* Take Surveys */}
@@ -133,7 +133,7 @@ const HeyCash = () => {
               </div>
               <h3 className="text-2xl font-black text-emerald-400 mb-3 tracking-wide">TAKE SURVEYS</h3>
               <p className="text-gray-300 mb-3 text-base">Earn per 2-10 min survey</p>
-              <div className="text-3xl font-black text-white mb-4">£0.50 - £6.00</div>
+              <div className="text-3xl font-black text-white mb-4">$0.50 - $6.00</div>
             </div>
 
             {/* Complete Offers */}
@@ -147,7 +147,7 @@ const HeyCash = () => {
               </div>
               <h3 className="text-2xl font-black text-purple-400 mb-3 tracking-wide">COMPLETE OFFERS</h3>
               <p className="text-gray-300 mb-3 text-base">Earn per app</p>
-              <div className="text-3xl font-black text-white mb-4">£1.00 - £75</div>
+              <div className="text-3xl font-black text-white mb-4">$1.00 - $75</div>
             </div>
           </div>
 
