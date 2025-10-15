@@ -10,12 +10,12 @@ const Hero = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-6 sm:mb-8 tracking-tight">
           <span className="text-heycash-green drop-shadow-lg">Earn Money</span>
           <br />
-          <span className="text-white drop-shadow-lg">Playing Games & Surveys</span>
+          <span className="text-white drop-shadow-lg">Playing & Answering</span>
         </h1>
         
         {/* Subtitle */}
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto font-semibold px-2 drop-shadow-md">
-          Play fun games, complete quick surveys, and get paid instantly!
+          Join thousands earning money daily
         </p>
         
         {/* CTA Button */}
