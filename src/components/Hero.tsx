@@ -1,5 +1,12 @@
 import { Button } from "@/components/ui/button";
 
+// Déclaration TypeScript pour gtag_report_conversion
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean;
+  }
+}
+
 const Hero = () => {
   return (
     <section className="w-full px-4 sm:px-6 py-6 sm:py-8 text-center h-[50vh] sm:h-[60vh] flex flex-col justify-center relative">
@@ -23,6 +30,11 @@ const Hero = () => {
           <a 
             href="https://9ud2s.bemobtrcks.com/click/1?ns=c%3D58dbf534-b09a-4c4f-981d-6fb7a879f616..l%3D2..a%3D0..b%3D0"
             className="bg-heycash-green hover:bg-heycash-green/90 text-black font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-5 rounded-full shadow-2xl hover:shadow-heycash-green/50 transition-all duration-300 transform hover:scale-105 inline-block"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag_report_conversion) {
+                window.gtag_report_conversion('https://9ud2s.bemobtrcks.com/click/1?ns=c%3D58dbf534-b09a-4c4f-981d-6fb7a879f616..l%3D2..a%3D0..b%3D0');
+              }
+            }}
           >
             Start Earning Now
           </a>
