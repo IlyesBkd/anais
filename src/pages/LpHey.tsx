@@ -3,7 +3,7 @@ import FeatureCards from "../components/FeatureCards";
 
 const LpHey = () => {
   return (
-    <div className="min-h-screen bg-heycash-dark text-foreground flex flex-col">
+    <div className="h-screen overflow-hidden bg-heycash-dark text-foreground flex flex-col">
       <Hero />
       <FeatureCards />
     </div>
