@@ -24,7 +24,7 @@ const FeatureCardsPh = () => {
                 <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Age of Coins: M...</h4>
                 <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 14.00 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 784 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
               </div>
               
@@ -39,7 +39,7 @@ const FeatureCardsPh = () => {
                 <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Lords Mobile: Kin...</h4>
                 <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 21.90 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 1,226 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">PLAY GAMES</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per game</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$0.50 - $120</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱28 - ₱6,720</p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const FeatureCardsPh = () => {
                   </div>
                 </div>
                 <div className="mb-1 sm:mb-2">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 3.30 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 185 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
                 <div className="flex gap-1 mb-1 sm:mb-2">
                   {[1,2,3,4,5].map((star) => (
@@ -97,7 +97,7 @@ const FeatureCardsPh = () => {
                   </div>
                 </div>
                 <div className="mb-2">
-                  <p className="text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 1.80 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                  <p className="text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 101 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
                 <div className="flex gap-1 mb-2">
                   {[1,2,3,4].map((star) => (
@@ -116,7 +116,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">TAKE SURVEYS</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per 2-10 min survey</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$0.50 - $6.00</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱28 - ₱336</p>
             </div>
           </div>
 
@@ -135,7 +135,7 @@ const FeatureCardsPh = () => {
                   </div>
                   <div className="text-right">
                     <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Start a trial month</p>
-                    <p className="text-sm sm:text-base font-bold text-heycash-green group-hover:text-white transition-colors">$ 2.60 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                    <p className="text-sm sm:text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 146 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ const FeatureCardsPh = () => {
                   </div>
                   <div className="text-right">
                     <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Download the app</p>
-                    <p className="text-base font-bold text-heycash-green group-hover:text-white transition-colors">$ 1.90 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
+                    <p className="text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 106 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">COMPLETE OFFERS</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per app</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$1.00 - $75</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱56 - ₱4,200</p>
             </div>
           </div>
 

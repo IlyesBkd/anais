@@ -18,7 +18,7 @@ const HeroPh = ({
   ctaUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7e523af1-24fb-419c-86e4-db7d28b583f4..l%3D2..a%3D0..b%3D0",
   ctaText = "Start Earning Now",
   title = "Earn Money Playing & Answering",
-  subtitle = "Join thousands earning money daily"
+  subtitle = "Join thousands of Filipinos earning money daily"
 }: HeroPhProps) => {
   return (
     <section className="w-full px-4 sm:px-6 py-6 sm:py-8 text-center h-[50vh] sm:h-[60vh] flex flex-col justify-center relative">
@@ -58,19 +58,19 @@ const HeroPh = ({
             <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">100% Free to Join</span>
+            <span className="text-sm sm:text-base">100% Libre sa Pag-join</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">Instant Payouts</span>
+            <span className="text-sm sm:text-base">Instant na Payout</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">No Experience Required</span>
+            <span className="text-sm sm:text-base">Walang Karanasan na Kailangan</span>
           </div>
         </div>
       </div>
