@@ -17,7 +17,7 @@ interface HeroPhProps {
 const HeroPh = ({ 
   ctaUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7e523af1-24fb-419c-86e4-db7d28b583f4..l%3D2..a%3D0..b%3D0",
   ctaText = "Start Earning Now",
-  title = "Earn Money Playing & Answering",
+  title = "Earn up to ₱433 per Survey",
   subtitle = "Join thousands of Filipinos earning money daily"
 }: HeroPhProps) => {
   return (
@@ -27,9 +27,9 @@ const HeroPh = ({
       
       <div className="max-w-4xl mx-auto relative z-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-6 sm:mb-8 tracking-tight">
-          <span className="text-heycash-green drop-shadow-lg">Earn Money</span>
+          <span className="text-heycash-green drop-shadow-lg">Earn up to ₱433</span>
           <br />
-          <span className="text-white drop-shadow-lg">Playing & Answering</span>
+          <span className="text-white drop-shadow-lg">per Survey</span>
         </h1>
         
         {/* Subtitle */}
@@ -58,19 +58,19 @@ const HeroPh = ({
             <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">100% Libre sa Pag-join</span>
+            <span className="text-sm sm:text-base">100% Free to Join</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-5 h-5 bg-blue-600 rounded flex items-center justify-center">
+              <span className="text-white font-bold text-xs">P</span>
+            </div>
+            <span className="text-sm sm:text-base">PayPal Instant Payouts</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">Instant na Payout</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-heycash-green" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <span className="text-sm sm:text-base">Walang Karanasan na Kailangan</span>
+            <span className="text-sm sm:text-base">No Experience Required</span>
           </div>
         </div>
       </div>

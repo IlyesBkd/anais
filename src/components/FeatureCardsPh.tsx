@@ -21,10 +21,20 @@ const FeatureCardsPh = () => {
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
-                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Age of Coins: M...</h4>
-                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
+                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Age of Coins: Mobile</h4>
+                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Strategy Game</p>
+                <div className="flex items-center gap-1 mb-2">
+                  <div className="flex gap-1">
+                    {[1,2,3,4,5].map((star) => (
+                      <svg key={star} className="w-2 sm:w-3 h-2 sm:h-3 text-yellow-500" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                      </svg>
+                    ))}
+                  </div>
+                  <span className="text-xs text-muted-foreground">(2.1k)</span>
+                </div>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 784 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 1,568 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
               </div>
               
@@ -36,10 +46,20 @@ const FeatureCardsPh = () => {
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
-                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Lords Mobile: Kin...</h4>
-                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
+                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Lords Mobile: Kingdom Wars</h4>
+                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">MMO Strategy</p>
+                <div className="flex items-center gap-1 mb-2">
+                  <div className="flex gap-1">
+                    {[1,2,3,4,5].map((star) => (
+                      <svg key={star} className="w-2 sm:w-3 h-2 sm:h-3 text-yellow-500" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                      </svg>
+                    ))}
+                  </div>
+                  <span className="text-xs text-muted-foreground">(3.8k)</span>
+                </div>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 1,226 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 2,452 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
               </div>
             </div>
@@ -47,7 +67,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">PLAY GAMES</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per game</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱28 - ₱6,720</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱56 - ₱13,440</p>
             </div>
           </div>
 
@@ -69,8 +89,10 @@ const FeatureCardsPh = () => {
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
+                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Consumer Survey</h4>
+                <p className="text-xs text-muted-foreground mb-1">Shopping Preferences</p>
                 <div className="mb-1 sm:mb-2">
-                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 185 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                  <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 370 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
                 <div className="flex gap-1 mb-1 sm:mb-2">
                   {[1,2,3,4,5].map((star) => (
@@ -96,8 +118,10 @@ const FeatureCardsPh = () => {
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
+                <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Quick Poll</h4>
+                <p className="text-xs text-muted-foreground mb-1">Brand Awareness</p>
                 <div className="mb-2">
-                  <p className="text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 101 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                  <p className="text-lg font-bold text-heycash-green group-hover:text-white transition-colors">₱ 202 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                 </div>
                 <div className="flex gap-1 mb-2">
                   {[1,2,3,4].map((star) => (
@@ -116,7 +140,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">TAKE SURVEYS</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per 2-10 min survey</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱28 - ₱336</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱56 - ₱672</p>
             </div>
           </div>
 
@@ -134,8 +158,9 @@ const FeatureCardsPh = () => {
                     </div>
                   </div>
                   <div className="text-right">
+                    <h4 className="text-xs font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Netflix Trial</h4>
                     <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Start a trial month</p>
-                    <p className="text-sm sm:text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 146 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                    <p className="text-sm sm:text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 292 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                   </div>
                 </div>
               </div>
@@ -154,8 +179,9 @@ const FeatureCardsPh = () => {
                     </div>
                   </div>
                   <div className="text-right">
+                    <h4 className="text-xs font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Facebook App</h4>
                     <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Download the app</p>
-                    <p className="text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 106 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
+                    <p className="text-base font-bold text-heycash-green group-hover:text-white transition-colors">₱ 212 <span className="text-xs font-normal text-muted-foreground">PHP</span></p>
                   </div>
                 </div>
               </div>
@@ -164,7 +190,7 @@ const FeatureCardsPh = () => {
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">COMPLETE OFFERS</h3>
               <p className="text-xs sm:text-sm text-muted-foreground">Earn per app</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱56 - ₱4,200</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">₱112 - ₱8,400</p>
             </div>
           </div>
 
