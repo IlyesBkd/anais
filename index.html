@@ -44,10 +44,33 @@
           window.location = url;
         }
       };
+      // Conversion page vue
       gtag('event', 'conversion', {
           'send_to': 'AW-17675800654/FSrZCOTBh7MbEM6gvexB',
           'value': 1.0,
           'currency': 'EUR',
+          'event_callback': callback
+      });
+      // Conversion inscription
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17611306140/h9cJCNvhiqUbEJzp3M1B',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Event snippet for Inscription conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_inscription(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17611306140/h9cJCNvhiqUbEJzp3M1B',
           'event_callback': callback
       });
       return false;
