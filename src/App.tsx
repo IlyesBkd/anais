@@ -7,6 +7,7 @@ import MakeMoneyUs from "./pages/MakeMoneyUs";
 import HeyCash from "./pages/HeyCash";
 import LpHey from "./pages/LpHey";
 import SurveyPollPh from "./pages/SurveyPollPh";
+import SurveyPollPk from "./pages/SurveyPollPk";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/hey-cash" element={<HeyCash />} />
           <Route path="/survey-poll" element={<LpHey />} />
           <Route path="/survey-poll-ph" element={<SurveyPollPh />} />
+          <Route path="/survey-poll-pk" element={<SurveyPollPk />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
