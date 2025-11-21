@@ -1,12 +1,5 @@
 import { Button } from "@/components/ui/button";
 
-// Déclaration TypeScript pour gtag_report_conversion
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean;
-  }
-}
-
 interface HeroPhProps {
   ctaUrl?: string;
   ctaText?: string;
@@ -42,11 +35,6 @@ const HeroPh = ({
           <a 
             href={ctaUrl}
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-5 rounded-full shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 inline-block"
-            onClick={() => {
-              if (typeof window !== 'undefined' && window.gtag_report_conversion) {
-                window.gtag_report_conversion(ctaUrl);
-              }
-            }}
           >
             {ctaText}
           </a>
