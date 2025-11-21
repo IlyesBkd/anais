@@ -19,6 +19,26 @@ const SurveyPollPk = () => {
     `;
     document.head.appendChild(script2);
 
+    // Event snippet for Page view (1) conversion page
+    const script3 = document.createElement('script');
+    script3.textContent = `
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17742555886/z-zFCN7izcIbEO7Vp4xC',
+            'value': 1.0,
+            'currency': 'EUR',
+            'event_callback': callback
+        });
+        return false;
+      }
+    `;
+    document.head.appendChild(script3);
+
     // Cleanup: remove scripts when component unmounts
     return () => {
       if (script1.parentNode) {
@@ -26,6 +46,9 @@ const SurveyPollPk = () => {
       }
       if (script2.parentNode) {
         script2.parentNode.removeChild(script2);
+      }
+      if (script3.parentNode) {
+        script3.parentNode.removeChild(script3);
       }
     };
   }, []);
