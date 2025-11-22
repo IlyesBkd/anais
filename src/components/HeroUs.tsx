@@ -15,9 +15,9 @@ interface HeroUsProps {
 }
 
 const HeroUs = ({ 
-  ctaUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Db6193c7c-9e5c-4d77-843f-149b8f0ea64a..l%3D2..a%3D0..b%3D0",
+  ctaUrl = "https://afflat3d2.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=18215&c=918277&a=277245&k=B94F689A713820C108D2FD4436458BF2&l=34792",
   ctaText = "Start Earning Now",
-  title = "Earn up to $10 per Survey",
+  title = "Earn up to $30 per Survey",
   subtitle = "Join thousands of Americans earning money daily"
 }: HeroUsProps) => {
   return (
@@ -27,7 +27,7 @@ const HeroUs = ({
       
       <div className="max-w-4xl mx-auto relative z-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-6 sm:mb-8 tracking-tight">
-          <span className="text-blue-600 drop-shadow-lg">Earn up to $10</span>
+          <span className="text-blue-600 drop-shadow-lg">Earn up to $30</span>
           <br />
           <span className="text-white drop-shadow-lg">per Survey</span>
         </h1>

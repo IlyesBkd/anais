@@ -18,7 +18,7 @@ const FeatureCardsUs = () => {
     }
   };
 
-  const bemobUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Db6193c7c-9e5c-4d77-843f-149b8f0ea64a..l%3D2..a%3D0..b%3D0";
+  const bemobUrl = "https://afflat3d2.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=18215&c=918277&a=277245&k=B94F689A713820C108D2FD4436458BF2&l=34792";
   return (
     <section className="w-full px-4 sm:px-6 py-2 sm:py-4 flex-1 flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
@@ -39,7 +39,7 @@ const FeatureCardsUs = () => {
                 <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Age of Coins: Mobile</h4>
                 <div className="absolute bottom-4 sm:bottom-5 left-4 sm:left-5 right-4 sm:right-5">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
-                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 5.50 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 16.50 <span className="text-xs font-normal text-blue-100">USD</span></p>
                   </div>
                 </div>
                 </a>
@@ -53,7 +53,7 @@ const FeatureCardsUs = () => {
                 <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Lords Mobile: Kingdom Wars</h4>
                 <div className="absolute bottom-4 sm:bottom-5 left-4 sm:left-5 right-4 sm:right-5">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
-                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 8.50 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 25.50 <span className="text-xs font-normal text-blue-100">USD</span></p>
                   </div>
                 </div>
                 </a>
@@ -62,7 +62,7 @@ const FeatureCardsUs = () => {
             <div className="space-y-2 mt-4">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">PLAY GAMES</h3>
               <p className="text-xs sm:text-sm text-white">Earn per game</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.20 - $120</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.60 - $360</p>
             </div>
           </div>
 
@@ -88,7 +88,7 @@ const FeatureCardsUs = () => {
                 <p className="text-xs text-gray-600 mb-1">Shopping Preferences</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
-                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 1.30 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                    <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 3.90 <span className="text-xs font-normal text-blue-100">USD</span></p>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-1 sm:mb-2">
@@ -117,7 +117,7 @@ const FeatureCardsUs = () => {
                 <p className="text-xs text-gray-600 mb-1">Brand Awareness</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
-                    <p className="text-lg font-bold text-white">$ 0.70 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                    <p className="text-lg font-bold text-white">$ 2.10 <span className="text-xs font-normal text-blue-100">USD</span></p>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-2">
@@ -137,7 +137,7 @@ const FeatureCardsUs = () => {
             <div className="space-y-2 mt-4">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">TAKE SURVEYS</h3>
               <p className="text-xs sm:text-sm text-white">Earn per 2-10 min survey</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.20 - $6.00</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.60 - $18.00</p>
             </div>
           </div>
 
@@ -158,7 +158,7 @@ const FeatureCardsUs = () => {
                     <h4 className="text-xs font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Netflix Trial</h4>
                     <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">Start a trial month</p>
                     <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-2 text-center shadow-lg">
-                      <p className="text-sm sm:text-base font-bold text-white">$ 1.00 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                      <p className="text-sm sm:text-base font-bold text-white">$ 3.00 <span className="text-xs font-normal text-blue-100">USD</span></p>
                     </div>
                   </div>
                 </div>
@@ -179,7 +179,7 @@ const FeatureCardsUs = () => {
                     <h4 className="text-xs font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Facebook App</h4>
                     <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">Download the app</p>
                     <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-2 text-center shadow-lg">
-                      <p className="text-base font-bold text-white">$ 0.75 <span className="text-xs font-normal text-blue-100">USD</span></p>
+                      <p className="text-base font-bold text-white">$ 2.25 <span className="text-xs font-normal text-blue-100">USD</span></p>
                     </div>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ const FeatureCardsUs = () => {
             <div className="space-y-2 mt-4">
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">COMPLETE OFFERS</h3>
               <p className="text-xs sm:text-sm text-white">Earn per app</p>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.40 - $75</p>
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$1.20 - $225</p>
             </div>
           </div>
 
