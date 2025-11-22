@@ -18,7 +18,7 @@ const FeatureCardsUs = () => {
     }
   };
 
-  const bemobUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Db6193c7c-9e5c-4d77-843f-149b8f0ea64a..l%3D2..a%3D0..b%3D0";
+  const bemobUrl = "https://afflat3d2.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=18215&c=918277&a=277245&k=B94F689A713820C108D2FD4436458BF2&l=34792";
   return (
     <section className="w-full px-4 sm:px-6 py-2 sm:py-4 flex-1 flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
