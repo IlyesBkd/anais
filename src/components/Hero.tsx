@@ -2,26 +2,23 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="w-full px-4 sm:px-6 py-6 sm:py-8 text-center h-[50vh] sm:h-[60vh] flex flex-col justify-center relative">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-heycash-green/10 via-transparent to-black/20"></div>
-      
+    <section className="w-full px-4 sm:px-6 py-8 sm:py-12 text-center h-[50vh] sm:h-[60vh] flex flex-col justify-center relative">
       <div className="max-w-4xl mx-auto relative z-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-6 sm:mb-8 tracking-tight">
-          <span className="text-heycash-green drop-shadow-lg">Earn Money</span>
+          <span className="text-heycash-green drop-shadow-lg">Earn $220 - $980</span>
           <br />
-          <span className="text-white drop-shadow-lg">Playing & Answering</span>
+          <span className="text-white drop-shadow-lg">Per Month</span>
         </h1>
         
         {/* Subtitle */}
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto font-semibold px-2 drop-shadow-md">
-          Join thousands earning money daily
+          Join thousands earning money daily by playing games & answering surveys
         </p>
         
         {/* CTA Button */}
         <div className="flex justify-center items-center">
           <a 
-            href="https://9ud2s.bemobtrcks.com/click/1?ns=c%3D58dbf534-b09a-4c4f-981d-6fb7a879f616..l%3D2..a%3D0..b%3D0"
+            href="https://afflat3e1.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=31078&c=918277&a=277245&k=F925D032E1CAA3FEC37F314852997945&l=36077"
             className="bg-heycash-green hover:bg-heycash-green/90 text-black font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-5 rounded-full shadow-2xl hover:shadow-heycash-green/50 transition-all duration-300 transform hover:scale-105 inline-block"
           >
             Start Earning Now

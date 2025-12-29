@@ -15,7 +15,7 @@ interface HeroUsProps {
 }
 
 const HeroUs = ({ 
-  ctaUrl = "https://afflat3d2.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=18215&c=918277&a=277245&k=B94F689A713820C108D2FD4436458BF2&l=34792",
+  ctaUrl = "https://afflat3e1.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=31078&c=918277&a=277245&k=F925D032E1CAA3FEC37F314852997945&l=36077",
   ctaText = "Start Earning Now",
   title = "Earn up to $30 per Survey",
   subtitle = "Join thousands of Americans earning money daily"

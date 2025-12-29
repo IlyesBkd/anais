@@ -93,7 +93,7 @@ function bemobCb(params) {
       description: "You will be redirected to the exclusive offer",
     });
     
-    window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7239fd54-23f5-4e1c-bcd1-2eeb45cfda8c..l%3D2..a%3D0..b%3D0";
+    window.location.href = "https://afflat3e1.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=31078&c=918277&a=277245&k=F925D032E1CAA3FEC37F314852997945&l=36077";
   };
 
   const featuredOffers = [

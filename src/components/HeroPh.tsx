@@ -8,7 +8,7 @@ interface HeroPhProps {
 }
 
 const HeroPh = ({ 
-  ctaUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3D7e523af1-24fb-419c-86e4-db7d28b583f4..l%3D2..a%3D0..b%3D0",
+  ctaUrl = "https://afflat3e1.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=31078&c=918277&a=277245&k=F925D032E1CAA3FEC37F314852997945&l=36077",
   ctaText = "Start Earning Now",
   title = "Earn up to ₱433 per Survey",
   subtitle = "Join thousands of Filipinos earning money daily"

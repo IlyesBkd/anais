@@ -5,9 +5,9 @@ import instagramIcon from "@/assets/instagram-icon.png";
 
 const FeatureCards = () => {
   return (
-    <section className="w-full px-4 sm:px-6 py-2 sm:py-4 flex-1 flex items-center overflow-hidden">
+    <section className="w-full px-4 sm:px-6 py-8 sm:py-12 flex-1 flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-6">
           
           {/* Play Games Section */}
           <div className="text-center space-y-3 sm:space-y-4">
