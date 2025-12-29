@@ -20,8 +20,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MakeMoneyUs />} />
-          <Route path="/hey-cash" element={<HeyCash />} />
+          <Route path="/" element={<HeyCash />} />
+          <Route path="/make-money" element={<MakeMoneyUs />} />
           <Route path="/survey-poll" element={<LpHey />} />
           <Route path="/survey-poll-ph" element={<SurveyPollPh />} />
           <Route path="/survey-poll-pk" element={<SurveyPollPk />} />
