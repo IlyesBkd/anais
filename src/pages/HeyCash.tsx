@@ -25,6 +25,33 @@ const HeyCash = () => {
 
   useEffect(() => {
     document.title = "HeyCash - Play games, take surveys & Earn Money";
+    
+    // Google tag (gtag.js)
+    // Add first script
+    const script1 = document.createElement('script');
+    script1.async = true;
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17857724447';
+    document.head.appendChild(script1);
+
+    // Add second script with gtag configuration
+    const script2 = document.createElement('script');
+    script2.textContent = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17857724447');
+    `;
+    document.head.appendChild(script2);
+
+    // Cleanup
+    return () => {
+      if (script1.parentNode) {
+        script1.parentNode.removeChild(script1);
+      }
+      if (script2.parentNode) {
+        script2.parentNode.removeChild(script2);
+      }
+    };
   }, []);
 
   const handleSignUp = () => {
