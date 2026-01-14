@@ -18,7 +18,7 @@ const Hero = () => {
         {/* CTA Button */}
         <div className="flex justify-center items-center">
           <a 
-            href="https://afflat3e1.com/trk/lnk/895E33EB-DA15-472C-9258-4221C5BE41C1/?o=31078&c=918277&a=277245&k=F925D032E1CAA3FEC37F314852997945&l=36077"
+href="https://9ud2s.bemobtrcks.com/click/1?ns=c%3Dd095771b-9969-428f-96e5-bc7688bd9795..l%3D2..a%3D0..b%3D0"
             className="bg-heycash-green hover:bg-heycash-green/90 text-black font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-5 rounded-full shadow-2xl hover:shadow-heycash-green/50 transition-all duration-300 transform hover:scale-105 inline-block"
           >
             Start Earning Now
