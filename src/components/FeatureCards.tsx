@@ -22,7 +22,7 @@ const FeatureCards = () => {
                   </div>
                 </div>
                 <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Age of Coins: M...</h4>
-                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
+                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Spiele</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 14.00 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
                 </div>
@@ -37,7 +37,7 @@ const FeatureCards = () => {
                   </div>
                 </div>
                 <h4 className="text-xs sm:text-sm font-semibold text-foreground mb-1 group-hover:text-heycash-green transition-colors">Lords Mobile: Kin...</h4>
-                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Games</p>
+                <p className="text-xs text-muted-foreground mb-2 sm:mb-4">Spiele</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <p className="text-sm sm:text-base md:text-lg font-bold text-heycash-green group-hover:text-white transition-colors">$ 21.90 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
                 </div>
@@ -45,8 +45,8 @@ const FeatureCards = () => {
             </div>
 
             <div className="space-y-1">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">PLAY GAMES</h3>
-              <p className="text-xs sm:text-sm text-muted-foreground">Earn per game</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">SPIELE SPIELEN</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground">Verdienst pro Spiel</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$0.50 - $120</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const FeatureCards = () => {
                       <circle cx="12" cy="12" r="10"/>
                       <polyline points="12,6 12,12 16,14"/>
                     </svg>
-                    <span className="text-xs">5 min</span>
+                    <span className="text-xs">5 Min.</span>
                   </div>
                   <div className="w-3 sm:w-4 h-3 sm:h-4 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-xs font-bold text-white">★</span>
@@ -90,7 +90,7 @@ const FeatureCards = () => {
                       <circle cx="12" cy="12" r="10"/>
                       <polyline points="12,6 12,12 16,14"/>
                     </svg>
-                    2 min
+                    2 Min.
                   </div>
                   <div className="w-4 h-4 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-xs font-bold text-white">★</span>
@@ -114,8 +114,8 @@ const FeatureCards = () => {
             </div>
 
             <div className="space-y-1">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">TAKE SURVEYS</h3>
-              <p className="text-xs sm:text-sm text-muted-foreground">Earn per 2-10 min survey</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">UMFRAGEN</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground">Verdienst pro 2–10 Min. Umfrage</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$0.50 - $6.00</p>
             </div>
           </div>
@@ -134,7 +134,7 @@ const FeatureCards = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Start a trial month</p>
+                    <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Probemonat starten</p>
                     <p className="text-sm sm:text-base font-bold text-heycash-green group-hover:text-white transition-colors">$ 2.60 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ const FeatureCards = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">Download the app</p>
+                    <p className="text-xs text-muted-foreground mb-1 group-hover:text-heycash-green transition-colors">App herunterladen</p>
                     <p className="text-base font-bold text-heycash-green group-hover:text-white transition-colors">$ 1.90 <span className="text-xs font-normal text-muted-foreground">USD</span></p>
                   </div>
                 </div>
@@ -162,8 +162,8 @@ const FeatureCards = () => {
             </div>
 
             <div className="space-y-1">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">COMPLETE OFFERS</h3>
-              <p className="text-xs sm:text-sm text-muted-foreground">Earn per app</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-heycash-green">ANGEBOTE ABSCHLIEßEN</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground">Verdienst pro App</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-foreground">$1.00 - $75</p>
             </div>
           </div>

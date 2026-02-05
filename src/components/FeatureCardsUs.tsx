@@ -60,8 +60,8 @@ const FeatureCardsUs = () => {
             </div>
 
             <div className="space-y-2 mt-4">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">PLAY GAMES</h3>
-              <p className="text-xs sm:text-sm text-white">Earn per game</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">SPIELE SPIELEN</h3>
+              <p className="text-xs sm:text-sm text-white">Verdienst pro Spiel</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.60 - $360</p>
             </div>
           </div>
@@ -78,14 +78,14 @@ const FeatureCardsUs = () => {
                       <circle cx="12" cy="12" r="10"/>
                       <polyline points="12,6 12,12 16,14"/>
                     </svg>
-                    <span className="text-xs">5 min</span>
+                    <span className="text-xs">5 Min.</span>
                   </div>
                   <div className="w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center shadow-lg">
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
-                <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Consumer Survey</h4>
-                <p className="text-xs text-gray-600 mb-1">Shopping Preferences</p>
+                <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Kundenumfrage</h4>
+                <p className="text-xs text-gray-600 mb-1">Einkaufspräferenzen</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
                     <p className="text-sm sm:text-base md:text-lg font-bold text-white">$ 3.90 <span className="text-xs font-normal text-blue-100">USD</span></p>
@@ -107,14 +107,14 @@ const FeatureCardsUs = () => {
                       <circle cx="12" cy="12" r="10"/>
                       <polyline points="12,6 12,12 16,14"/>
                     </svg>
-                    2 min
+                    2 Min.
                   </div>
                   <div className="w-4 h-4 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-xs font-bold text-white">★</span>
                   </div>
                 </div>
-                <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Quick Poll</h4>
-                <p className="text-xs text-gray-600 mb-1">Brand Awareness</p>
+                <h4 className="text-xs sm:text-sm font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Schnelle Umfrage</h4>
+                <p className="text-xs text-gray-600 mb-1">Markenbekanntheit</p>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-2 sm:p-3 text-center shadow-lg">
                     <p className="text-lg font-bold text-white">$ 2.10 <span className="text-xs font-normal text-blue-100">USD</span></p>
@@ -135,8 +135,8 @@ const FeatureCardsUs = () => {
             </div>
 
             <div className="space-y-2 mt-4">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">TAKE SURVEYS</h3>
-              <p className="text-xs sm:text-sm text-white">Earn per 2-10 min survey</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">UMFRAGEN</h3>
+              <p className="text-xs sm:text-sm text-white">Verdienst pro 2–10 Min. Umfrage</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$0.60 - $18.00</p>
             </div>
           </div>
@@ -155,8 +155,8 @@ const FeatureCardsUs = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <h4 className="text-xs font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Netflix Trial</h4>
-                    <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">Start a trial month</p>
+                    <h4 className="text-xs font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Netflix Probeabo</h4>
+                    <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">Probemonat starten</p>
                     <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-2 text-center shadow-lg">
                       <p className="text-sm sm:text-base font-bold text-white">$ 3.00 <span className="text-xs font-normal text-blue-100">USD</span></p>
                     </div>
@@ -177,7 +177,7 @@ const FeatureCardsUs = () => {
                   </div>
                   <div className="text-right">
                     <h4 className="text-xs font-semibold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">Facebook App</h4>
-                    <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">Download the app</p>
+                    <p className="text-xs text-gray-600 mb-1 group-hover:text-blue-600 transition-colors">App herunterladen</p>
                     <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-2 text-center shadow-lg">
                       <p className="text-base font-bold text-white">$ 2.25 <span className="text-xs font-normal text-blue-100">USD</span></p>
                     </div>
@@ -187,8 +187,8 @@ const FeatureCardsUs = () => {
             </div>
 
             <div className="space-y-2 mt-4">
-              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">COMPLETE OFFERS</h3>
-              <p className="text-xs sm:text-sm text-white">Earn per app</p>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-600">ANGEBOTE ABSCHLIEßEN</h3>
+              <p className="text-xs sm:text-sm text-white">Verdienst pro App</p>
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-white bg-blue-600/20 px-3 py-1 rounded-lg border border-blue-500/30">$1.20 - $225</p>
             </div>
           </div>

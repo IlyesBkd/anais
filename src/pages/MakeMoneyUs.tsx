@@ -31,7 +31,7 @@ const MakeMoneyUs = () => {
   // Add delegate-ch meta tag and bemob scripts only for this page
   useEffect(() => {
     // Set page title
-    document.title = "Up to $10 per Survey!";
+    document.title = "Bis zu 10 $ pro Umfrage!";
     
     // Add delegate-ch meta tag
     const meta = document.createElement('meta');
@@ -89,8 +89,8 @@ function bemobCb(params) {
 
   const handleAnyClick = () => {
     toast({
-      title: "Redirecting...",
-      description: "You will be redirected to the exclusive offer",
+      title: "Weiterleitung...",
+      description: "Du wirst zum exklusiven Angebot weitergeleitet",
     });
     
     window.location.href = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Dd095771b-9969-428f-96e5-bc7688bd9795..l%3D2..a%3D0..b%3D0";
@@ -102,7 +102,7 @@ function bemobCb(params) {
       title: "Age of Coins: Master",
       reward: "4.2",
       currency: "$",
-      type: "Game",
+      type: "Spiel",
       gradient: "from-orange-400 to-red-500"
     },
     {
@@ -110,7 +110,7 @@ function bemobCb(params) {
       title: "[NEW] Solitaire Joy: Mobile",
             reward: "6.0",
       currency: "$",
-      type: "Game",
+      type: "Spiel",
       gradient: "from-green-400 to-blue-500"
     },
     {
@@ -118,7 +118,7 @@ function bemobCb(params) {
       title: "Lords Mobile: Kingdom",
       reward: "3.2",
       currency: "$",
-      type: "Game", 
+      type: "Spiel", 
       gradient: "from-purple-400 to-pink-500"
     },
     {
@@ -126,7 +126,7 @@ function bemobCb(params) {
       title: "Clash Of Clans",
       reward: "4.2",
       currency: "$",
-      type: "Game",
+      type: "Spiel",
       gradient: "from-blue-400 to-indigo-500"
     }
   ];
@@ -134,8 +134,8 @@ function bemobCb(params) {
   const availableSurveys = [
     {
       id: 1,
-      title: "Consumer habits",
-      description: "5 minutes • Consumer preferences",
+      title: "Konsumverhalten",
+      description: "5 Minuten • Verbraucherpräferenzen",
       duration: "5 min",
       reward: "2.6",
       rating: 4.5,
@@ -143,8 +143,8 @@ function bemobCb(params) {
     },
     {
       id: 2,
-      title: "Technology usage", 
-      description: "8 minutes • Technology preferences",
+      title: "Technologienutzung", 
+      description: "8 Minuten • Technologiepräferenzen",
       duration: "8 min",
       reward: "4.2",
       rating: 4.6,
@@ -152,8 +152,8 @@ function bemobCb(params) {
     },
     {
       id: 3,
-      title: "Travel preferences",
-      description: "10 minutes • Travel and leisure",
+      title: "Reisepreferenzen",
+      description: "10 Minuten • Reisen und Freizeit",
       duration: "10 min", 
       reward: "6.0",
       rating: 4.3,
@@ -161,8 +161,8 @@ function bemobCb(params) {
     },
     {
       id: 4,
-      title: "Lifestyle and leisure",
-      description: "6 minutes • Daily activities",
+      title: "Lebensstil und Freizeit",
+      description: "6 Minuten • Tägliche Aktivitäten",
       duration: "6 min",
       reward: "3.2",
       rating: 4.4,
@@ -184,7 +184,7 @@ function bemobCb(params) {
             <div className="relative z-10">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <p className="text-gray-300 text-sm">Current Balance</p>
+                  <p className="text-gray-300 text-sm">Aktueller Kontostand</p>
                   <p className="text-4xl font-bold">${currentBalance}</p>
                 </div>
                 <Button 
@@ -193,14 +193,14 @@ function bemobCb(params) {
                   onClick={handleAnyClick}
                 >
                   <Gift className="w-4 h-4 mr-2" />
-                  Claim Reward
+                  Belohnung abholen
                   <Sparkles className="w-3 h-3 ml-2 animate-pulse" />
                 </Button>
               </div>
               
               <div className="mb-4">
                 <div className="flex justify-between items-center mb-2">
-                                     <span className="text-gray-300 text-sm">Sign up now and get $10.6</span>
+                                     <span className="text-gray-300 text-sm">Melde dich jetzt an und erhalte 10,6 $</span>
                   <span className="text-white font-semibold">{progress}%</span>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-3">
@@ -216,7 +216,7 @@ function bemobCb(params) {
           {/* Featured Offers Section - Like mockup */}
           <div>
             <div className="mb-4">
-              <h3 className="text-white text-xl font-bold">Featured Offers</h3>
+              <h3 className="text-white text-xl font-bold">Top-Angebote</h3>
             </div>
             
             <div className="grid grid-cols-3 gap-4">
@@ -258,7 +258,7 @@ function bemobCb(params) {
                         <p className="text-green-600 font-bold text-sm">{offer.currency}{offer.reward}</p>
                       </div>
                       <Button size="sm" className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold text-xs h-7" onClick={handleAnyClick}>
-                        Earn
+                        Verdienen
                       </Button>
                     </div>
                   </div>
@@ -269,7 +269,7 @@ function bemobCb(params) {
 
           {/* Featured Surveys Section - Like mockup */}
           <div>
-            <h3 className="text-white text-xl font-bold mb-4">Featured Surveys</h3>
+            <h3 className="text-white text-xl font-bold mb-4">Top-Umfragen</h3>
             
             <div className="grid grid-cols-2 gap-3">
               {availableSurveys.map((survey) => (
@@ -312,14 +312,14 @@ function bemobCb(params) {
         <div className="flex space-x-6 h-full">
           {/* Left Column - Dashboard & Stats */}
           <div className="flex-1 space-y-3 pr-2">
-            <h2 className="text-3xl font-bold text-white">Earn up to $13.8 by Poll!</h2>
+            <h2 className="text-3xl font-bold text-white">Verdiene bis zu 13,8 $ mit Umfragen!</h2>
             
             {/* User Stats Cards */}
             <div className="grid grid-cols-1 gap-3">
               <Card className="bg-gradient-to-br from-green-400 to-green-600 text-white p-4 rounded-xl">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-green-100 text-sm">Balance</p>
+                    <p className="text-green-100 text-sm">Kontostand</p>
                     <p className="text-xl font-bold">${currentBalance}</p>
                   </div>
                   <DollarSign className="w-6 h-6 text-green-200" />
@@ -332,26 +332,26 @@ function bemobCb(params) {
               <div className="space-y-2">
                 <div className="flex justify-between items-center">
                   <div>
-                    <h3 className="text-lg font-bold text-gray-800">Current Balance</h3>
+                    <h3 className="text-lg font-bold text-gray-800">Aktueller Kontostand</h3>
                     <p className="text-2xl font-bold text-green-600">${currentBalance}</p>
                   </div>
                   <Button className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400 hover:to-emerald-500 text-white font-bold px-6 py-3 text-base rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-green-400 hover:border-green-300" onClick={handleAnyClick}>
                     <DollarSign className="w-4 h-4 mr-2" />
-                    Withdraw
+                    Auszahlen
                   </Button>
                 </div>
                 
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                                         <span className="text-gray-600 text-sm">Sign up now and get $10.6</span>
+                                         <span className="text-gray-600 text-sm">Melde dich jetzt an und erhalte 10,6 $</span>
                     <span className="text-green-600 font-semibold">3/5</span>
                   </div>
                   <Progress value={60} className="h-2" />
                   <div className="text-center">
-                                         <p className="text-gray-600 mb-1 text-sm">Earn $10.6 by completing the goal</p>
+                                         <p className="text-gray-600 mb-1 text-sm">Verdiene 10,6 $, indem du das Ziel abschließt</p>
                     <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-3 rounded-lg">
                                               <p className="text-2xl font-bold text-gray-800">$47.6</p>
-                      <p className="text-xs text-gray-600">Daily potential</p>
+                      <p className="text-xs text-gray-600">Tägliches Potenzial</p>
                     </div>
                   </div>
                 </div>
@@ -362,16 +362,16 @@ function bemobCb(params) {
             <Card className="bg-white p-3 rounded-xl">
               <div className="space-y-2 text-center">
                 <h2 className="text-lg font-bold text-gray-800">
-                  Tired of filling surveys for{" "}
-                  <span className="text-red-500">pennies</span>?
+                  Genug davon, Umfragen für{" "}
+                  <span className="text-red-500">ein paar Cent</span> auszufüllen?
                 </h2>
                 <p className="text-base font-bold text-gray-900">
                   <span className="bg-gradient-to-r from-blue-400 to-blue-500 text-white px-2 py-1 rounded-lg shadow-md text-sm">
-                    Sign up
+                    Registriere dich
                   </span>{" "}
-                  and earn{" "}
+                  und verdiene{" "}
                   <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-2 py-1 rounded-lg shadow-md text-sm">
-                                         $47.6/day
+                                         47,6 $/Tag
                   </span>
                 </p>
                 
@@ -398,7 +398,7 @@ function bemobCb(params) {
                   onClick={handleAnyClick}
                 >
                   <Sparkles className="w-4 h-4 group-hover:animate-pulse" />
-                  <span>Start earning now</span>
+                  <span>Jetzt verdienen</span>
                   <ArrowRight className={`w-4 h-4 transition-transform duration-300 ${isHovered ? 'translate-x-2' : ''}`} />
                 </Button>
               </div>
@@ -412,10 +412,10 @@ function bemobCb(params) {
               <div className="flex items-center justify-between mb-3">
                 <h4 className="text-lg font-bold text-gray-800 flex items-center">
                   <Target className="w-4 h-4 mr-2 text-blue-500" />
-                  Available Surveys
+                  Verfügbare Umfragen
                 </h4>
                 <Badge variant="outline" className="text-green-600 border-green-600 text-xs">
-                  {availableSurveys.length} available
+                  {availableSurveys.length} verfügbar
                 </Badge>
               </div>
               
@@ -439,7 +439,7 @@ function bemobCb(params) {
                     <div className="text-right">
                       <p className="font-bold text-green-600 text-base">${survey.reward}</p>
                       <Button size="sm" className="bg-green-500 hover:bg-green-600 text-white mt-1 group-hover:scale-105 transition-transform duration-300 text-xs h-7" onClick={handleAnyClick}>
-                        Start
+                        Starten
                       </Button>
                     </div>
                   </div>
@@ -447,7 +447,7 @@ function bemobCb(params) {
               </div>
             </Card>
 
-            <h3 className="text-xl font-bold text-white">Featured Offers</h3>
+            <h3 className="text-xl font-bold text-white">Top-Angebote</h3>
             
             {/* Featured Offers Grid - Only 2 games */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -481,7 +481,7 @@ function bemobCb(params) {
                       <Badge variant="secondary" className="text-xs">{offer.type}</Badge>
                     </div>
                     <Button size="sm" className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold text-xs h-8" onClick={handleAnyClick}>
-                      Earn
+                      Verdienen
                     </Button>
                   </div>
                 </Card>

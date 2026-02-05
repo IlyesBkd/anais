@@ -16,9 +16,9 @@ interface HeroUsProps {
 
 const HeroUs = ({ 
   ctaUrl = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Dd095771b-9969-428f-96e5-bc7688bd9795..l%3D2..a%3D0..b%3D0",
-  ctaText = "Start Earning Now",
-  title = "Earn up to $30 per Survey",
-  subtitle = "Join thousands of Americans earning money daily"
+  ctaText = "Jetzt starten",
+  title = "Verdiene bis zu 30 $ pro Umfrage",
+  subtitle = "Schließe dich Tausenden Amerikanern an, die täglich Geld verdienen"
 }: HeroUsProps) => {
   return (
     <section className="w-full px-4 sm:px-6 py-6 sm:py-8 text-center h-[50vh] sm:h-[60vh] flex flex-col justify-center relative">
@@ -27,9 +27,9 @@ const HeroUs = ({
       
       <div className="max-w-4xl mx-auto relative z-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-6 sm:mb-8 tracking-tight">
-          <span className="text-blue-600 drop-shadow-lg">Earn up to $30</span>
+          <span className="text-blue-600 drop-shadow-lg">Verdiene bis zu 30 $</span>
           <br />
-          <span className="text-white drop-shadow-lg">per Survey</span>
+          <span className="text-white drop-shadow-lg">pro Umfrage</span>
         </h1>
         
         {/* Subtitle */}
@@ -59,19 +59,19 @@ const HeroUs = ({
             <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">100% Free to Join</span>
+            <span className="text-sm sm:text-base">100% kostenlos beitreten</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-5 h-5 bg-blue-600 rounded flex items-center justify-center">
               <span className="text-white font-bold text-xs">P</span>
             </div>
-            <span className="text-sm sm:text-base">PayPal Instant Payouts</span>
+            <span className="text-sm sm:text-base">PayPal Sofortauszahlungen</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm sm:text-base">No Experience Required</span>
+            <span className="text-sm sm:text-base">Keine Erfahrung nötig</span>
           </div>
         </div>
       </div>

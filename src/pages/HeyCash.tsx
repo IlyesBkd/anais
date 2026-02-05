@@ -24,7 +24,7 @@ const HeyCash = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    document.title = "HeyCash - Play games, take surveys & Earn Money";
+    document.title = "HeyCash – Spiele spielen, Umfragen beantworten & Geld verdienen";
     
     // Google tag (gtag.js)
     // Add first script
@@ -60,10 +60,10 @@ const HeyCash = () => {
   };
 
   const trustBadges = [
-    { icon: CheckCircle2, text: "100% Free to Join", color: "text-green-400" },
-    { icon: Shield, text: "Secure & Trusted", color: "text-emerald-400" },
-    { icon: Timer, text: "Instant Payouts", color: "text-green-300" },
-    { icon: Award, text: "No Experience Required", color: "text-emerald-300" }
+    { icon: CheckCircle2, text: "100% kostenlos beitreten", color: "text-green-400" },
+    { icon: Shield, text: "Sicher & vertrauenswürdig", color: "text-emerald-400" },
+    { icon: Timer, text: "Sofortige Auszahlungen", color: "text-green-300" },
+    { icon: Award, text: "Keine Erfahrung nötig", color: "text-emerald-300" }
   ];
 
   return (
@@ -89,19 +89,19 @@ const HeyCash = () => {
             {/* Badge */}
             <Badge className="mb-6 bg-green-500/20 text-green-400 border-green-500/30 px-4 py-1.5 text-sm font-semibold">
               <Sparkles className="w-3 h-3 mr-2" />
-              Join 2M+ Active Users
+              Werde Teil von über 2 Mio. aktiven Nutzer:innen
             </Badge>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 text-white leading-tight tracking-tight">
               <span className="bg-gradient-to-r from-green-400 via-emerald-300 to-green-500 bg-clip-text text-transparent animate-gradient">
-                Earn Money
+                Geld verdienen
               </span>
               <br />
-              <span className="text-white">Playing & Answering</span>
+              <span className="text-white">durch Spielen & Beantworten</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-10 text-gray-300 font-medium max-w-3xl mx-auto leading-relaxed">
-              Join thousands earning up to <span className="text-green-400 font-bold">$120 per game</span> and <span className="text-emerald-400 font-bold">$6 per survey</span>
+              Schließe dich Tausenden an, die bis zu <span className="text-green-400 font-bold">120 $ pro Spiel</span> und <span className="text-emerald-400 font-bold">6 $ pro Umfrage</span> verdienen
             </p>
 
             {/* CTA Button - Enhanced */}
@@ -115,7 +115,7 @@ const HeyCash = () => {
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></span>
                 <Zap className="w-6 h-6 mr-3 group-hover:animate-pulse" />
-                Start Earning Now
+                Jetzt Geld verdienen
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
               </Button>
             </div>
@@ -140,18 +140,18 @@ const HeyCash = () => {
             <div className="grid grid-cols-3 gap-6 max-w-3xl mx-auto">
               <Card className="bg-gray-800/60 backdrop-blur-sm border-gray-700/50 p-6 text-center group hover:border-green-500/50 hover:bg-gray-800/80 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-black text-green-400 mb-2 group-hover:scale-110 transition-transform duration-300">$2.5M+</div>
-                <div className="text-gray-400 text-sm font-medium">Total Paid Out</div>
+                <div className="text-gray-400 text-sm font-medium">Insgesamt ausgezahlt</div>
               </Card>
               <Card className="bg-gray-800/60 backdrop-blur-sm border-gray-700/50 p-6 text-center group hover:border-emerald-500/50 hover:bg-gray-800/80 transition-all duration-300">
                 <div className="text-3xl md:text-4xl font-black text-emerald-400 mb-2 group-hover:scale-110 transition-transform duration-300">2M+</div>
-                <div className="text-gray-400 text-sm font-medium">Active Users</div>
+                <div className="text-gray-400 text-sm font-medium">Aktive Nutzer:innen</div>
               </Card>
               <Card className="bg-gray-800/60 backdrop-blur-sm border-gray-700/50 p-6 text-center group hover:border-green-500/50 hover:bg-gray-800/80 transition-all duration-300">
                 <div className="flex items-center justify-center gap-1 text-3xl md:text-4xl font-black text-green-300 mb-2 group-hover:scale-110 transition-transform duration-300">
                   <Star className="w-6 h-6 fill-yellow-400 text-yellow-400" />
                   4.8
                 </div>
-                <div className="text-gray-400 text-sm font-medium">User Rating</div>
+                <div className="text-gray-400 text-sm font-medium">Bewertung</div>
               </Card>
             </div>
           </div>
@@ -163,10 +163,10 @@ const HeyCash = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
-              Choose Your <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Earning Method</span>
+              Wähle deine <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Verdienstmethode</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Multiple ways to earn money, pick what works best for you
+              Mehrere Wege, Geld zu verdienen – wähle, was am besten zu dir passt
             </p>
           </div>
 
@@ -184,18 +184,18 @@ const HeyCash = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2 mb-3">
                   <Play className="w-5 h-5 text-green-400" />
-                  <h3 className="text-2xl font-black text-green-400 tracking-wide">PLAY GAMES</h3>
+                  <h3 className="text-2xl font-black text-green-400 tracking-wide">SPIELE SPIELEN</h3>
                 </div>
-                <p className="text-gray-400 mb-4 text-base">Earn money while having fun</p>
+                <p className="text-gray-400 mb-4 text-base">Verdiene Geld, während du Spaß hast</p>
                 <div className="bg-gray-900/50 rounded-xl p-4 mb-4">
                   <div className="text-4xl font-black text-white mb-1">$0.30 - $120</div>
-                  <div className="text-sm text-gray-400">per game completion</div>
+                  <div className="text-sm text-gray-400">pro abgeschlossenem Spiel</div>
                 </div>
                 <Button 
                   onClick={handleSignUp}
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl py-6 group-hover:scale-105 transition-transform duration-300"
                 >
-                  Start Playing
+                  Jetzt spielen
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
@@ -214,18 +214,18 @@ const HeyCash = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2 mb-3">
                   <FileText className="w-5 h-5 text-emerald-400" />
-                  <h3 className="text-2xl font-black text-emerald-400 tracking-wide">TAKE SURVEYS</h3>
+                  <h3 className="text-2xl font-black text-emerald-400 tracking-wide">UMFRAGEN</h3>
                 </div>
-                <p className="text-gray-400 mb-4 text-base">Share your opinion and get paid</p>
+                <p className="text-gray-400 mb-4 text-base">Teile deine Meinung und werde bezahlt</p>
                 <div className="bg-gray-900/50 rounded-xl p-4 mb-4">
                   <div className="text-4xl font-black text-white mb-1">$0.50 - $6.00</div>
-                  <div className="text-sm text-gray-400">per 2-10 min survey</div>
+                  <div className="text-sm text-gray-400">pro 2–10 Min. Umfrage</div>
                 </div>
                 <Button 
                   onClick={handleSignUp}
                   className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-xl py-6 group-hover:scale-105 transition-transform duration-300"
                 >
-                  Start Surveys
+                  Jetzt starten
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
@@ -244,18 +244,18 @@ const HeyCash = () => {
                 </div>
                 <div className="flex items-center justify-center gap-2 mb-3">
                   <Gift className="w-5 h-5 text-purple-400" />
-                  <h3 className="text-2xl font-black text-purple-400 tracking-wide">COMPLETE OFFERS</h3>
+                  <h3 className="text-2xl font-black text-purple-400 tracking-wide">ANGEBOTE ABSCHLIEßEN</h3>
                 </div>
-                <p className="text-gray-400 mb-4 text-base">Try apps and services, earn rewards</p>
+                <p className="text-gray-400 mb-4 text-base">Teste Apps und Services und sammle Belohnungen</p>
                 <div className="bg-gray-900/50 rounded-xl p-4 mb-4">
                   <div className="text-4xl font-black text-white mb-1">$1.00 - $75</div>
-                  <div className="text-sm text-gray-400">per offer completion</div>
+                  <div className="text-sm text-gray-400">pro abgeschlossenem Angebot</div>
                 </div>
                 <Button 
                   onClick={handleSignUp}
                   className="w-full bg-purple-500 hover:bg-purple-600 text-white font-bold rounded-xl py-6 group-hover:scale-105 transition-transform duration-300"
                 >
-                  View Offers
+                  Angebote ansehen
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
@@ -270,10 +270,10 @@ const HeyCash = () => {
           <Card className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 backdrop-blur-sm border-green-500/30 p-12 text-center">
             <Crown className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
             <h3 className="text-3xl font-black text-white mb-4">
-              Ready to Start Earning?
+              Bereit, Geld zu verdienen?
             </h3>
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              Join millions of users who are already earning money daily. It's free to sign up and takes less than a minute!
+              Werde Teil von Millionen Nutzer:innen, die bereits täglich Geld verdienen. Die Anmeldung ist kostenlos und dauert weniger als eine Minute!
             </p>
             <Button 
               onClick={handleSignUp}
@@ -281,7 +281,7 @@ const HeyCash = () => {
               className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-white text-lg px-12 py-6 rounded-xl font-black shadow-xl hover:shadow-2xl hover:shadow-green-500/50 transform hover:scale-105 transition-all duration-300"
             >
               <Sparkles className="w-5 h-5 mr-2" />
-              Get Started Free
+              Kostenlos starten
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </Card>
