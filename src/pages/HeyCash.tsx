@@ -19,6 +19,8 @@ import {
   BadgeCheck
 } from "lucide-react";
 
+ const GOOGLE_ADS_CONVERSION_SEND_TO = "AW-17857724447/0ILFCJ_oufMbEJ-AncNC";
+ 
 const HeyCash = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
 
@@ -55,7 +57,22 @@ const HeyCash = () => {
   }, []);
 
   const handleSignUp = () => {
-    window.open("https://9ud2s.bemobtrcks.com/click/1?ns=c%3Dd095771b-9969-428f-96e5-bc7688bd9795..l%3D2..a%3D0..b%3D0", "_blank");
+    const url = "https://9ud2s.bemobtrcks.com/click/1?ns=c%3Dd095771b-9969-428f-96e5-bc7688bd9795..l%3D2..a%3D0..b%3D0";
+
+    const gtag = (window as any)?.gtag as ((...args: any[]) => void) | undefined;
+
+    if (typeof gtag === "function") {
+      gtag("event", "conversion", {
+        send_to: GOOGLE_ADS_CONVERSION_SEND_TO,
+        value: 1.0,
+        currency: "EUR",
+        event_callback: () => window.open(url, "_blank"),
+      });
+      setTimeout(() => window.open(url, "_blank"), 800);
+      return;
+    }
+
+    window.open(url, "_blank");
   };
 
   const testimonials = [
